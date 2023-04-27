@@ -1,8 +1,10 @@
 import Head from "next/head";
 import PhotoGrids from "@/components/PhotoGrids";
 import MenuBar from "@/components/MenuBar";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  
   return (
     <>
       <Head>
