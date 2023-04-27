@@ -1,3 +1,6 @@
+/*Luphiwe Sikupela
+25-/Apr/2023*/
+
 import Head from "next/head";
 import PhotoGrids from "@/components/PhotoGrids";
 import MenuBar from "@/components/MenuBar";
