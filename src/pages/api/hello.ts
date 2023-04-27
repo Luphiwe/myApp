@@ -1,4 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+/*Luphiwe Sikupela
+25-/Apr/2023*/
+
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 type Data = {
@@ -9,5 +12,5 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ name: 'John Doe' })
+  res.status(200).json({ name: 'Luphiwe Sikupela' })
 }
